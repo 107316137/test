@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>11
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>AMENDED REPORT REQUST</h2>
+    <form id="orderForm1" action="http://203.64.84.113/x/RQ_RS.aspx" method="post" name="form1">
+        <table style="width:100%">
+            <tr align="left">
+                <td>Request's Name <input type="text" size="73" />Date of Request <input type="text" size="75" /> <br /> <br /></td>
+            </tr>
+            <tr>
+                <td>Requestor's Phone Number <input type="text" /></td>
+            </tr>
+            <tr>
+                <td>Accession number of report to be corrected <input type="text" /></td>
+            </tr>
+            <tr>
+                <td>Patient's Name <input type="text" /></td>
+            </tr>
+            <tr>
+                <td>Details to be corrected <input type="text" size="185" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" size="185" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" size="185" /></td>
+            </tr>
+            <tr>
+                <td>Reason for correction <input type="text" size="185" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" size="185" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" size="185" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" size="185" /></td>
+            </tr>
+            <tr>
+                <td>Request Approved by <input type="text" size="37" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Printed Name of Submitting Physician</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="37" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signature of Submitting Physician</td>
+            </tr>
+        </table>
+        </form>
+</body>
+</html>
